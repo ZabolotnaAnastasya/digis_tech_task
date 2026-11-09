@@ -1,0 +1,12 @@
+pymc-marketing==1.3.0
+pymc-extras
+numpy
+pandas
+scipy
+matplotlib
+arviz
+optuna
+scikit-learn
+statsmodels
+openpyxl
+ipykernel

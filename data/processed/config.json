@@ -1,0 +1,44 @@
+{
+  "target": "new",
+  "channels": [
+    "bing",
+    "google",
+    "meta",
+    "pinterest"
+  ],
+  "controls": [
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4",
+    "dow_5",
+    "dow_6",
+    "bf_cm_peak",
+    "promo",
+    "t",
+    "xmas_eve_day",
+    "new_year"
+  ],
+  "k_yearly": 3,
+  "holiday_choice": "C: xmas_eve_day + new_year",
+  "holdout_start": "2026-07-03",
+  "baseline_month": "2026-09",
+  "baseline_daily_spend": {
+    "bing": 331.44,
+    "google": 2264.95,
+    "meta": 2509.4,
+    "pinterest": 634.51
+  },
+  "target_cac": 40,
+  "optional_controls": {
+    "peak": [],
+    "peak+window": [
+      "bf_window"
+    ],
+    "peak+window+bf+cm": [
+      "bf_window",
+      "bf_day",
+      "cm_day"
+    ]
+  }
+}

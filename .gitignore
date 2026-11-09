@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Моделі (великі, відтворюються запуском 04_modeling)
+*.nc
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store

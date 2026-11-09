@@ -1,0 +1,47 @@
+{
+  "params": {
+    "k_yearly": 6,
+    "l_max": 21,
+    "saturation": "logistic",
+    "beta_sigma": 0.5489779514362569,
+    "bf_features": "peak+window"
+  },
+  "controls": [
+    "dow_1",
+    "dow_2",
+    "dow_3",
+    "dow_4",
+    "dow_5",
+    "dow_6",
+    "bf_cm_peak",
+    "promo",
+    "t",
+    "xmas_eve_day",
+    "new_year",
+    "bf_window"
+  ],
+  "holdout": {
+    "mape_mmm": 0.0742299639858371,
+    "mape_naive": 0.12354923243450112,
+    "rmse_mmm": 36.93096262131729,
+    "rmse_naive": 55.75675718890243,
+    "coverage90": 1.0
+  },
+  "sampler": {
+    "chains": 4,
+    "draws": 1000,
+    "tune": 1000,
+    "target_accept": 0.9,
+    "seed": 42
+  },
+  "l_max": 21,
+  "k_yearly": 6,
+  "target_scale": 2290.0,
+  "channel_scale": {
+    "bing": 1069.95,
+    "google": 13487.88,
+    "meta": 19251.13,
+    "pinterest": 3029.0
+  },
+  "pymc_marketing": "1.3.0"
+}
